@@ -11,3 +11,12 @@ console.log('Q1🍰');
 
 // 答え
 type PartialFoo = Partial<Foo>;
+
+// Q2 Fooが持つプロパティ全て必須にする
+console.log('Q2🍰');
+
+// 古胤
+type RequireA = Required<Foo>;
+
+
+// 
