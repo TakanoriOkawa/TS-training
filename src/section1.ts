@@ -15,8 +15,12 @@ type PartialFoo = Partial<Foo>;
 // Q2 Fooが持つプロパティ全て必須にする
 console.log('Q2🍰');
 
-// 古胤
+// 答え
 type RequireA = Required<Foo>;
 
+// Q3 Fooからnameだけを取得したtypeを作ってください
+console.log('Q3🍰');
 
-// 
+// Pickを使う これは便利そう
+// 新しいオブジェクトの型を作る。Fooから一部を持ってくる
+type Picked = Pick<Foo, 'bar'>;
