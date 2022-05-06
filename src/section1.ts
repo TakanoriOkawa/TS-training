@@ -24,3 +24,8 @@ console.log('Q3🍰');
 // Pickを使う これは便利そう
 // 新しいオブジェクトの型を作る。Fooから一部を持ってくる
 type Picked = Pick<Foo, 'bar'>;
+
+// Q4
+console.log('Q4🍰');
+
+const user = { name: 'kenji', age: 88 } as const;
